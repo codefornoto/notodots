@@ -1,0 +1,156 @@
+.surface {
+  width: auto;
+  height: 800px;
+}
+.rain {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.rain > div {
+  animation: rain 500ms linear infinite;
+  background-color: rgba(255, 255, 255, 0.25);
+  position: absolute;
+  left: 0;
+  top: -20vh;
+  width: 1px;
+  height: 20vh;
+  transform-origin: center center;
+}
+.rain > div:nth-child(1) {
+  animation-delay: 100ms;
+  animation-duration: 558ms;
+  left: 87vw;
+}
+.rain > div:nth-child(2) {
+  animation-delay: 200ms;
+  animation-duration: 574ms;
+  left: 66vw;
+}
+.rain > div:nth-child(3) {
+  animation-delay: 300ms;
+  animation-duration: 609ms;
+  left: 85vw;
+}
+.rain > div:nth-child(4) {
+  animation-delay: 400ms;
+  animation-duration: 430ms;
+  left: 82vw;
+}
+.rain > div:nth-child(5) {
+  animation-delay: 500ms;
+  animation-duration: 526ms;
+  left: 63vw;
+}
+.rain > div:nth-child(6) {
+  animation-delay: 600ms;
+  animation-duration: 527ms;
+  left: 32vw;
+}
+.rain > div:nth-child(7) {
+  animation-delay: 700ms;
+  animation-duration: 603ms;
+  left: 19vw;
+}
+.rain > div:nth-child(8) {
+  animation-delay: 800ms;
+  animation-duration: 491ms;
+  left: 72vw;
+}
+.rain > div:nth-child(9) {
+  animation-delay: 900ms;
+  animation-duration: 608ms;
+  left: 46vw;
+}
+.rain > div:nth-child(10) {
+  animation-delay: 1000ms;
+  animation-duration: 460ms;
+  left: 79vw;
+}
+.rain > div:nth-child(11) {
+  animation-delay: 1100ms;
+  animation-duration: 616ms;
+  left: 54vw;
+}
+.rain > div:nth-child(12) {
+  animation-delay: 1200ms;
+  animation-duration: 587ms;
+  left: 52vw;
+}
+.rain > div:nth-child(13) {
+  animation-delay: 1300ms;
+  animation-duration: 550ms;
+  left: 51vw;
+}
+.rain > div:nth-child(14) {
+  animation-delay: 1400ms;
+  animation-duration: 454ms;
+  left: 76vw;
+}
+.rain > div:nth-child(15) {
+  animation-delay: 1500ms;
+  animation-duration: 604ms;
+  left: 9vw;
+}
+.rain > div:nth-child(16) {
+  animation-delay: 1600ms;
+  animation-duration: 608ms;
+  left: 39vw;
+}
+.rain > div:nth-child(17) {
+  animation-delay: 1700ms;
+  animation-duration: 428ms;
+  left: 10vw;
+}
+.rain > div:nth-child(18) {
+  animation-delay: 1800ms;
+  animation-duration: 537ms;
+  left: 26vw;
+}
+.rain > div:nth-child(19) {
+  animation-delay: 1900ms;
+  animation-duration: 449ms;
+  left: 13vw;
+}
+.rain > div:nth-child(20) {
+  animation-delay: 2000ms;
+  animation-duration: 503ms;
+  left: 11vw;
+}
+.rain > div:nth-child(21) {
+  animation-delay: 2100ms;
+  animation-duration: 470ms;
+  left: 42vw;
+}
+.rain > div:nth-child(22) {
+  animation-delay: 2200ms;
+  animation-duration: 406ms;
+  left: 96vw;
+}
+.rain > div:nth-child(23) {
+  animation-delay: 2300ms;
+  animation-duration: 545ms;
+  left: 2vw;
+}
+.rain > div:nth-child(24) {
+  animation-delay: 2400ms;
+  animation-duration: 466ms;
+  left: 16vw;
+}
+.rain > div:nth-child(25) {
+  animation-delay: 2500ms;
+  animation-duration: 470ms;
+  left: 52vw;
+}
+@keyframes rain {
+  from {
+    transform: rotate(-5deg) translateY(-20vh);
+  }
+  to {
+    transform: rotate(-5deg) translateY(120vh);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
