@@ -261,7 +261,7 @@ const VERTEX_SHADER = `
         // mPosition.x = 1000.0;
         gl_PointSize = 0.0;
       }
-      gl_PointSize = opacity * 1.0;
+      gl_PointSize = opacity * 3.0;
       gl_Position = projectionMatrix * mPosition;
     }
 `;
