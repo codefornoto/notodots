@@ -17,6 +17,7 @@ async function getDataFromSpreadSheet() {
   }).done((result) => {
     // 成功した時の処理
     texts = JSON.parse(result);
+    console.log(texts);
   });
   // .fail((error) => {
   //   // 失敗した時の処理
