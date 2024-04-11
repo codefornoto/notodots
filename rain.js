@@ -16,9 +16,7 @@ async function getDataFromSpreadSheet() {
     url: BACKEND_URL,
   }).done((result) => {
     // 成功した時の処理
-    console.log("called api");
     texts = JSON.parse(result);
-    console.log(texts);
   });
   // .fail((error) => {
   //   // 失敗した時の処理
@@ -68,7 +66,6 @@ O.prototype = {
     this.waveColor = "hsla(" + random(0, 360) + ", 100%, 50%, " + this.a + ")";
     this.alpha = 0;
     this.y = random(-200, window.innerHeight + 100);
-    console.log(this.y);
     this.text = texts[Math.floor(Math.random() * texts.length)]; // テキストを設定
     // this.text = this.texts[Math.floor(Math.random() * this.texts.length)];
 
